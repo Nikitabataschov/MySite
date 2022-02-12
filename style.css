@@ -143,3 +143,11 @@ body{
     font-size: 14px;
     line-height: 100%;
 }
+
+.somefutures{
+    background-color:#171f23 ;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 60px 0;
+    display: block;
+}
