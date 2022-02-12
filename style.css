@@ -1,15 +1,28 @@
+@font-face {
+    font-family: 'bignoodletitling';
+    src: url('font/bignoodletitling.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: 'bignoodletitling';
+}
+
 .topheader{
     z-index: 99999;
     position: relative;
-    width: 100;
+    width: 100%;
     background: white;
-    height: 100px;
+    height: 140px;
 }
 
 body{
     font-size: 14px;
     line-height: 100%;
-    font-weight:300 ;
+    font-weight: 300;
     color: #696969;
 }
 
@@ -18,11 +31,13 @@ body{
     position: absolute;
     bottom: auto;
 }
+
 .logo>a>img{
     margin-top: -10px;
     padding-right: 10px;
     height: 60px;
 }
+
 .logo>a{
     margin-top: 30px;
     display: flex;
@@ -32,4 +47,99 @@ body{
     text-transform: uppercase;
     font-size: 20px;
     line-height: initial;
+    font-family: 'bignoodletitling';
+}
+
+.main-content{
+    width: 100%;
+}
+
+.banner{
+    background: url(images/slider.jpg) #696969;
+    background-blend-mode: multiply, normal;
+    display: flex;
+    color: #d6d5d5;
+    align-items: center;
+    min-height: 650px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    font-family: 'bignoodletitling';
+}
+
+.banner h2{
+    font-size: 3rem;
+}
+
+.banner p{
+    font-size: 2rem;
+}
+
+.scrolldown{
+    position: absolute;
+    left: calc(50% - 52px);
+    margin-top: 15%;
+}
+
+.scrolldown img{
+    margin-bottom: 20px;
+}
+
+.scrolldown p{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.head_white_content span{
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    background-color: #f88865;
+}
+
+.head_white_content{
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+.head_white_content p{
+    padding: 20px 32% 0px;
+    color: #696969;
+}
+
+.aboutus{
+    margin-bottom: 90px;
+    width: 98%;
+}
+
+.advantage{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #ebebeb;
+    padding: 30px;
+    margin: 3%;
+}
+
+.advantage span{
+    font-size: 60px;
+    color: #f88865;
+}
+
+.advantage h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    color: #707070;
+    padding: 25px 0 13px;
+}
+
+.advantage p{
+    color: #707070;
+    font-size: 14px;
+    line-height: 100%;
 }
